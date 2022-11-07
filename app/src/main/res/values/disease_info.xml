@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="als_info">
+        Angular leaf spot is a bacterial disease. Heavy rains can drive the pathogen into leaves and cause
+        significant problems in some fields. Spots appear angular when limited by leaf veins.  Symptoms of
+        angular leaf spot usually first appear as water-soaked lesions bound by the veins of the leaf, so
+        they are angular in shape. As they progress, the lesions may turn yellow and then brown and the leaf
+        tissue may tear. Lesions may have yellow haloes. During wet weather, bacteria may ooze from the spots
+        and later dry to a white residue chlorosis (yellowing) of the leaves.
+    </string>
+
+    <string name="bsh_info">
+Black shank caused by the soilborne oomycete (fungal-like organism) Phytophthora nicotianae (Syn. Phytophthora parasitica)
+        is one of the most destructive diseases on tobacco. Like other water molds, black shank is favored by high humidity
+        or wet conditions and warm temperatures. P. nicotianae is polycyclic, and reproduces asexually and sexually.
+
+Black shank can affect any part of the tobacco plant at any growth stage. Root and crown rot are the most common
+        symptoms associated with P. nicotianae, but leaf spots may also be caused by this pathogen splashing from
+        the soil onto leaf tissue. Leaf spots appear and form circular, yellowish-to-brown lesions up to 3 inches in
+        diameter, with concentric rings, and are usually limited to lower leaves that are typically removed later in
+        the growing season
+
+    </string>
+
+    <string name="bs_info">
+The causal agent of brown spot is Alternaria alternata, which is an opportunistic pathogen of many crops. The pathogen
+        survives in crop debris and disperses as conidia (asexual spores). Conidia germination requires moisture for
+        germination and colonization of host tissue. Once tissues are colonized, abundant conidia are formed within
+        lesions that are later dispersed to new tissues.
+
+Small circular to irregularly-shaped spots, beginning small (0.25 in) and expanding as they mature (1.25 in).
+        Lesions are dark brown with yellow halos surrounding the spots. Within the lesions, dark rings may be observed
+        that contain thousands of spores that may be splash- or wind-dispersed to newer leaves. Lesions may coalesce,
+        causing the necrotic tissue to tear away, leaving the leaves ragged. Brown spot can continue to develop under
+        curing conditions, causing moldy growth on cured leaves.
+
+    </string>
+    <string name="lc_info">
+Tobacco leaf curl disease (TLCD) is caused by begomoviruses in Geminiviridae, and infected plants exhibit leaf thickening,
+        downward leaf curling, vein swelling as well as stunting symptoms. It is one of the economically important diseases
+        in tropical and subtropical tobacco-growing areas.
+    </string>
+    <string name="pm_info">
+Powdery mildew is a common fungus that affects a wide variety of plants. It is easily identified and appears as light grey
+        or white powdery spots usually found on infected leaves, but can also be found underneath, or on stems, flowers,
+        fruit or vegetables. The spots spread and will eventually cover most of the leaves on the plant, with new plant
+        growth being most susceptible.
+
+Powdery mildew thrives in warm, dry climates; however, it also needs fairly high humidity — like the warm days and cool
+        nights in late spring to early summer. Not enough sunlight and poor air circulation also contribute to conditions
+        that encourage powdery mildew.
+
+Although rarely fatal, if left unchecked it can eventually cause serious harm to your plants by robbing it of water and
+        nutrients. Most infections cause minor damage such as leaves turning yellow or becoming withered or distorted,
+        but plants can also become weak, bloom less, and grow slower.
+
+    </string>
+    <string name="wf_info">
+Soon after exposure to high levels of atmospheric pollutants, leaves may develop dark green water-soaked spots about 1/10
+        inch in diameter. Within hours, the spots turn dark brown, sometimes remain brown, but often turn white within 48
+        hours. Symptoms occur most often in low areas of fields. Plants are most sensitive when growing rapidly
+        (plant bed and 4-6 weeks after transplanting), but symptoms may appear at any stage of growth. In the plant bed
+        or on very sensitive varieties, spots appear over the entire leaf surface but are usually confined to the leaf
+        tips of less sensitive varieties. Occasionally spots coalesce, or a central spot may be surrounded by smaller ones.
+        Weather fleck is often confused with other flecks caused by chemicals, diseases, or nutritional disorders.
+    </string>
+</resources>

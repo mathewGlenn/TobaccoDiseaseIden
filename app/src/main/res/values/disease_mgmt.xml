@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="als_mgmt">
+        •	Practice early ploughing in nurseries\n
+•	Use certified disease free seed\n
+•	Rotate nursery sites and fields every 3 to 4 years with the following non-host crops such as groundnuts and maize.\n
+•	Keep nursery and fields weed free to prevent alternative hosts from harbouring the pathogen inoculum.\n
+•	Fumigate seedbeds - See yellow direct control column\n
+•	Uproot and burn all infected plants soon after complete reaping tobacco to prevent spread of pathogen\n
+•	There are currently no resistant varieties of tobacco against this disease\n
+•	Avoid overhead irrigation as this can spread the bacterium\n
+
+    </string>
+
+    <string name="bsh_mgmt">
+Selecting resistant varieties is the most economical management of this pathogen for tobacco growers.
+        Since complete resistance to this disease is not available with recent race shifts, use of resistant
+        varieties should be considered in combination with other management practices.
+    </string>
+
+    <string name="bs_mgmt">
+Brown spot management is geared to reduce fungal inoculum build-up in the production system and delay initial onset
+        of disease. Crop rotation away from tobacco will allow for crop debris to completely decay limiting fungal
+        survival. Quickly destroying crop debris after harvest will also limit inoculum survival on tobacco tissues.
+
+Infections by other pathogens that impact general plant health may also increase brown spot incidence. High nematode
+        pressures, black shank, and Granville wilt may also increase brown spot. Limit nematode and other disease
+        pressures where possible.
+Adequate nutrition (not deficient nor excessive) for encouraging vigorous growth of leaves and limiting excess growth
+        may reduce the impact of brown spot. Additionally, proper plant spacing and sucker control will limit humidity
+        in plant canopies, reducing brown spot incidence.
+
+    </string>
+
+    <string name="lc_mgmt">
+•	Remove and destroy the infected plants.\n
+•	Rogue out the reservoir weed hosts which harbor the virus and whiteflies. Planting tobacco crops during the
+        crop periods when the vector population is low.\n
+•	Field sanitation.   \n
+•	Highly contagious disease; washed the used implements as well as labor hands by running water.   \n
+•	Balanced fertilizers are used (optimum Nitrogenous fertilizer).  \n
+
+    </string>
+
+    <string name="pm_mgmt">
+•	Avoiding over fertilizing, overcrowding of plants and removal of affected basal leaves will help in minimizing
+        primary infection and spread of the disease.\n
+•	Early planting to escape cool temperature prevalent at the maturing stage will also reduce the incidence.\n
+•	Apply sulphur powder (200 mesh) @ 40 kg/ha to soil between plant row 6-8 weeks after planting. Mix ash or sand
+        to sulphur for easy application.\n
+•	See that sulphur does not fall on tobacco leaves. Recommended for black soils only.\n
+•	Spray 0.2% Karathane or Thiovit or 0.05% Carbendazim just before the disease sets in Repeat at 10-12 days
+        interval if necessary.\n
+•	Use resistant varieties like Swarna or Line 2359 developed at Central Tobacco Research Institute, in disease
+        endemic area.\n
+    </string>
+
+    <string name="wf_mgmt">
+Weather fleck deficiency can be corrected by application of nitrogenous fertilizer and recommended dose of nitrogen
+        should be applied at the appropriate stage of plant growth for achieving maximum yield and desirable
+        quality of tobacco.
+    </string>
+</resources>

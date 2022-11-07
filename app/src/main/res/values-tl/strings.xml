@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TobaccoLeafDiseaseAI</string>
+    <string name="text">
+        Leaf spots are brown in color, circular and enlarge to about the size of a nickel.
+        Concentric rings can be seen within the spots and these may coalesce forming irregular areas on the foliage.
+        Disease severity is positively correlated with cloudy, wet weather.
+        The disease occurs primarily on mature leaves often beginning on the lower leaves and progressing to other leaves
+        higher up on the stalk.
+
+</string>
+    <string name="diseaseInfo">Leaf spots are brown in color, circular and enlarge to about the size of a nickel. Concentric rings can be seen within the spots and these may coalesce forming irregular areas on the foliage. Disease severity is positively correlated with cloudy, wet weather. The disease occurs primarily on mature leaves often beginning on the lower leaves and progressing to other leaves higher up on the stalk.</string>
+    <string name="expert_description">Kailangan mo ba ng tulong ng eksperto sa iyong problema sa sakit sa tabako? Makipag-ugnayan sa mga eksperto sa ibaba at makakuha ng insight sa kung ano ang maaari mong gawin.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec dui sit amet eros eleifend posuere ac quis neque. Suspendisse iaculis urna ut laoreet dictum. Nunc finibus justo ac lectus scelerisque, nec fermentum lectus ullamcorper. Donec fringilla sapien at velit dictum placerat. Donec mollis leo eros, nec venenatis tellus imperdiet sed.</string>
+    <string name="reach_expert">Kotakin ang ekspertong ito sa pamamagitan ng pagpapadala ng mensahe na may larawan ng iyong sakit sa dahon ng tabako.</string>
+    <string name="about_app">Ang app na ito ay espesyal na binuo upang matulungan ang mga magsasaka ng tabako na mapabuti ang kanilang mga ani sa pamamagitan ng pagbibigay sa kanila ng isang tool upang tumulong sa pamamahala ng mga sakit sa dahon sa kanilang mga halaman ng tabako. Gumagamit ang app na ito ng Artificial Intelligence para makilala ang mga sakit sa dahon ng tabako.\n\n Ang app na ito ay nagsisilbing capstone project ni Clarita Batalia, Norlex Jr. Galam Pascua, Ryan Pascua Villarba.\n\n Isabela State University \n\n Cauayan City campus \n\n S.Y. 2022 – 2023\n\n\n bersyon 1.0</string>
+    <string name="identify_leaf_disease">Kilalanin ang mga sakit sa tabako</string>
+    <string name="app_settings">Mga setting ng app</string>
+    <string name="change_app_lang">Baguhin ang wika ng app</string>
+    <string name="about_the_app">Tungkol sa app</string>
+    <string name="take_photo">Kumuha ng larawan ng sakit sa dahon</string>
+    <string name="open_cam">Buksan ang kamera</string>
+    <string name="choose_gallery">Pumili mula sa gallery</string>
+    <string name="choose_desired_lang">Piliin ang gustong wika ng app</string>
+
+    <string name="nta_info">
+    Ang National Tobacco Administration (NTA) ay nilikha sa pamamagitan ng Executive Order (EO) 245 na inilabas ni Pangulong Corazon C. Aquino noong Hulyo 24, 1987. Ito ay naging tanging katawan ng pamahalaan na nangangasiwa at kumokontrol sa paglago at pag-unlad ng industriya, at para pangalagaan ang kapakanan ng mga marginalized na magsasaka.
+    </string>
+
+    <string name="go_back">
+        Bumalik
+    </string>
+
+    <string name="no_result">
+
+Ang larawang iyong nakunan ay hindi nakilala ng application. Subukang kumuha muli ng larawan ng sakit sa dahon ng tabako. Ituon ang camera sa sakit sa dahon at tiyaking malinaw ang larawan.
+    </string>
+
+    <string name="contact_expert">makipag-ugnayan sa eksperto</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="als_mgmt">
+	Magsanay ng maagang pag-aararo sa mga nursery\n\n
+	Gumamit ng sertipikadong binhing walang sakit\n\n
+	Paikutin ang mga nursery site at field tuwing 3 hanggang 4 na taon kasama ang mga sumusunod na pananim na hindi host tulad ng groundnuts at mais.\n\n
+	Panatilihing malaya ang mga damo sa nursery at mga bukid upang maiwasan ang mga alternatibong host na magtago ng pathogen inoculum.\n\n
+	Fumigate seedbeds - Tingnan ang dilaw na direktang control column\n\n
+	 Bunutin at sunugin ang lahat ng mga nahawaang halaman sa lalong madaling panahon pagkatapos ng kumpletong pag-ani ng tabako upang maiwasan ang pagkalat ng pathogen\n\n
+	Kasalukuyang walang lumalaban na uri ng tabako laban sa sakit na ito\n\n
+	Iwasan ang overhead irrigation dahil ito ay maaaring kumalat sa bacterium
+
+    </string>
+
+    <string name="bsh_mgmt">
+Ang pagpili ng mga lumalaban na varieties ay ang pinakamatipid na pamamahala ng pathogen na ito para sa mga nagtatanim ng tabako. Dahil ang kumpletong paglaban sa sakit na ito ay hindi magagamit sa kamakailang paglilipat ng lahi, ang paggamit ng mga lumalaban na varieties ay dapat isaalang-alang kasama ng iba pang mga kasanayan sa pamamahala.
+    </string>
+
+    <string name="bs_mgmt">
+Ang pamamahala ng brown spot ay nakatuon upang mabawasan ang pagbuo ng fungal inoculum sa sistema ng produksyon at maantala ang paunang pagsisimula ng sakit. Ang pag-ikot ng pananim palayo sa tabako ay magbibigay-daan para sa mga labi ng pananim na ganap na mabulok na naglilimita sa kaligtasan ng fungal. Ang mabilis na pagsira ng mga labi ng pananim pagkatapos ng pag-aani ay maglilimita rin sa kaligtasan ng inoculum sa mga tisyu ng tabako.
+Ang mga impeksyon ng iba pang mga pathogen na nakakaapekto sa pangkalahatang kalusugan ng halaman ay maaari ring magpataas ng saklaw ng brown spot. Ang mataas na presyon ng nematode, black shank, at Granville wilt ay maaari ring magpapataas ng brown spot. Limitahan ang nematode at iba pang presyon ng sakit kung posible.
+Ang sapat na nutrisyon (hindi kulang o labis) para sa paghikayat sa masiglang paglaki ng mga dahon at paglilimita sa labis na paglaki ay maaaring mabawasan ang epekto ng brown spot. Bukod pa rito, ang wastong espasyo ng halaman at kontrol ng sucker ay maglilimita sa halumigmig sa mga canopies ng halaman, na magpapababa sa saklaw ng brown spot.
+
+    </string>
+
+    <string name="lc_mgmt">
+	Alisin at sirain ang mga nahawaang halaman.\n\n
+	Iwasan ang mga reservoir weed host na nagtataglay ng virus at whiteflies. Pagtatanim ng mga pananim na tabako sa mga panahon ng pananim kung kailan mababa ang populasyon ng vector.\n\n
+	Kalinisan sa larangan.\n\n
+	Lubhang nakakahawang sakit; hinugasan ang mga ginamit na kagamitan pati na rin ang mga kamay sa paggawa sa pamamagitan ng tubig na umaagos.\n\n
+	Ginagamit ang mga balanseng pataba (optimum Nitrogenous fertilizer).
+
+
+    </string>
+
+    <string name="pm_mgmt">
+	Ang pag-iwas sa labis na pagpapataba, pagsisikip ng mga halaman at pagtanggal ng mga apektadong basal na dahon ay makakatulong sa pagliit ng pangunahing impeksiyon at pagkalat ng sakit.\n\n
+	Ang maagang pagtatanim upang makatakas sa malamig na temperatura na laganap sa yugto ng pagkahinog ay mababawasan din ang saklaw.\n\n
+	Maglagay ng sulfur powder (200 mesh) @ 40 kg/ha sa lupa sa pagitan ng hanay ng halaman 6-8 linggo pagkatapos itanim. Paghaluin ang abo o buhangin sa asupre para sa madaling paggamit.\n\n
+	Tingnan na ang asupre ay hindi nahuhulog sa mga dahon ng tabako. Inirerekomenda para sa mga itim na lupa lamang.\n\n
+	Mag-spray ng 0.2% Karathane o Thiovit o 0.05% Carbendazim bago magsimula ang sakit. Ulitin sa pagitan ng 10-12 araw kung kinakailangan\n\n
+	Gumamit ng mga lumalaban na varieties tulad ng Swarna o Line 2359 na binuo sa Central Tobacco Research Institute, sa lugar na endemic ng sakit.\n\n
+
+    </string>
+
+    <string name="wf_mgmt">
+Ang weather fleck deficiency ay maaaring itama sa pamamagitan ng paglalagay ng nitrogenous fertilizer at ang inirerekumendang dosis ng nitrogen ay dapat ilapat sa naaangkop na yugto ng paglago ng halaman para makamit ang pinakamataas na ani at kanais-nais na kalidad ng tabako.
+    </string>
+</resources>

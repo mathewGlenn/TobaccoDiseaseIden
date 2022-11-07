@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TobaccoLeafDiseaseAI</string>
+    <string name="text">
+        Leaf spots are brown in color, circular and enlarge to about the size of a nickel.
+        Concentric rings can be seen within the spots and these may coalesce forming irregular areas on the foliage.
+        Disease severity is positively correlated with cloudy, wet weather.
+        The disease occurs primarily on mature leaves often beginning on the lower leaves and progressing to other leaves
+        higher up on the stalk.
+
+</string>
+    <string name="diseaseInfo">Leaf spots are brown in color, circular and enlarge to about the size of a nickel. Concentric rings can be seen within the spots and these may coalesce forming irregular areas on the foliage. Disease severity is positively correlated with cloudy, wet weather. The disease occurs primarily on mature leaves often beginning on the lower leaves and progressing to other leaves higher up on the stalk.</string>
+    <string name="expert_description">Do you need expert help on your tobacco disease problem? Contact the experts below and get insight on what you can do.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec dui sit amet eros eleifend posuere ac quis neque. Suspendisse iaculis urna ut laoreet dictum. Nunc finibus justo ac lectus scelerisque, nec fermentum lectus ullamcorper. Donec fringilla sapien at velit dictum placerat. Donec mollis leo eros, nec venenatis tellus imperdiet sed.</string>
+    <string name="reach_expert">Reach this expert by sending a message with a picture of your tobacco leaf disease.</string>
+    <string name="about_app">This app was developed specially to help tobacco farmers improve their yields by giving them a tool to assist in the management of leaf diseases on their tobacco plants. This app uses Artificial Intelligence to recognize tobacco leaf diseases.\n\n This app serves as a capstone project of Clarita Batalia, Norlex Jr. Galam Pascua, Ryan Pascua Villarba.\n\n Isabela State University \n\n Cauayan City campus\n\n S.Y. 2022 - 2023\n\n\n version 1.0</string>
+    <string name="identify_leaf_disease">Identify tobacco diseases</string>
+    <string name="app_settings">App settings</string>
+    <string name="change_app_lang">Change app language</string>
+    <string name="about_the_app">About the app</string>
+    <string name="take_photo">Take a photo of the leaf disease</string>
+    <string name="open_cam">Open camera</string>
+    <string name="choose_gallery">Choose from gallery</string>
+    <string name="choose_desired_lang">Choose desired app language</string>
+<string name="contact_expert">Contact an expert</string>
+    <string name="nta_info">
+        The National Tobacco Administration (NTA) was created through Executive Order (EO) 245 issued by then President Corazon C. Aquino on July 24, 1987. It has become the sole government body that oversees and regulates the growth and development of the industry, and to look after the welfare of marginalized farmers.
+    </string>
+
+    <string name="go_back">
+        Go back
+    </string>
+    <string name="no_result">The image you captured was not recognized by the application. Try to capture an image of the tobacco leaf disease again. Focus the camera on the leaf disease and make sure the image is clear.</string>
+</resources>
