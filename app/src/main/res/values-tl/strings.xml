@@ -12,7 +12,14 @@
     <string name="expert_description">Kailangan mo ba ng tulong ng eksperto sa iyong problema sa sakit sa tabako? Makipag-ugnayan sa mga eksperto sa ibaba at makakuha ng insight sa kung ano ang maaari mong gawin.</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec dui sit amet eros eleifend posuere ac quis neque. Suspendisse iaculis urna ut laoreet dictum. Nunc finibus justo ac lectus scelerisque, nec fermentum lectus ullamcorper. Donec fringilla sapien at velit dictum placerat. Donec mollis leo eros, nec venenatis tellus imperdiet sed.</string>
     <string name="reach_expert">Kotakin ang ekspertong ito sa pamamagitan ng pagpapadala ng mensahe na may larawan ng iyong sakit sa dahon ng tabako.</string>
-    <string name="about_app">Ang app na ito ay espesyal na binuo upang matulungan ang mga magsasaka ng tabako na mapabuti ang kanilang mga ani sa pamamagitan ng pagbibigay sa kanila ng isang tool upang tumulong sa pamamahala ng mga sakit sa dahon sa kanilang mga halaman ng tabako. Gumagamit ang app na ito ng Artificial Intelligence para makilala ang mga sakit sa dahon ng tabako.\n\n Ang app na ito ay nagsisilbing capstone project ni Clarita Batalia, Norlex Jr. Galam Pascua, Ryan Pascua Villarba.\n\n Isabela State University \n\n Cauayan City campus \n\n S.Y. 2022 – 2023\n\n\n bersyon 1.0</string>
+    <string name="about_app">Ang app na ito ay espesyal na binuo upang matulungan ang mga magsasaka ng tabako na mapabuti ang kanilang mga ani sa pamamagitan ng pagbibigay sa kanila ng isang tool upang tumulong sa pamamahala ng mga sakit sa dahon sa kanilang mga halaman ng tabako. Gumagamit ang app na ito ng Artificial Intelligence para makilala ang mga sakit sa dahon ng tabako.\n\nAng app na ito ay nagsisilbing capstone project ni Clarita Batalia, Norlex Jr. Galam Pascua, Ryan Pascua Villarba.\n\n
+
+System adviser - Paulo Opiña Jr\n
+Subject adviser - Rose Mary A. Velasco\n
+Lead panel- Reynaldo R. Corpuz\n
+Panel member - Christopher Guiang , Paulo Opiña Jr\n
+Dean - Betchie E. Aguinaldo\n\n
+Isabela State University\n Cauayan City campus \n S.Y. 2022 – 2023\n\nImeplemented at Cauayan City Isabela </string>
     <string name="identify_leaf_disease">Kilalanin ang mga sakit sa tabako</string>
     <string name="app_settings">Mga setting ng app</string>
     <string name="change_app_lang">Baguhin ang wika ng app</string>

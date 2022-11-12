@@ -5,14 +5,15 @@
       <map>
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1995" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1995" />
-        <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_about.xml" value="0.2" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_change_app_language.xml" value="0.20521590423257802" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_contact_expert.xml" value="0.264" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_library.xml" value="0.136" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_library_info.xml" value="0.1936725096194955" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_main2.xml" value="0.20436083796494228" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_no_result.xml" value="0.2" />
-        <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_prediction_result.xml" value="0.1" />
+        <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_prediction_result.xml" value="0.264" />
         <entry key="..\:/PROGRAMMING/Android Projects/TobaccoLeafDiseaseAI/app/src/main/res/layout/activity_settings.xml" value="0.20521590423257802" />
       </map>
     </option>

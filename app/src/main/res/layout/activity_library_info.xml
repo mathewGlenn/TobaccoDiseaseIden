@@ -109,6 +109,7 @@
             app:layout_constraintTop_toBottomOf="@id/diseaseName" />
 
         <TextView
+            android:lineHeight="25dp"
             android:id="@+id/diseaseInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -131,6 +132,7 @@
             app:layout_constraintTop_toBottomOf="@id/diseaseInfo" />
 
         <TextView
+            android:lineHeight="25dp"
             android:id="@+id/diseaseManagement"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

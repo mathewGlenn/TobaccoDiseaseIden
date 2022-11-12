@@ -21,6 +21,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.content.FileProvider
+import com.appdev.tobaccoleafdiseaseai.databinding.ActivityMain2Binding
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityMainBinding
 import java.io.File
 import java.io.FileOutputStream
@@ -45,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        val binding = ActivityMainBinding.inflate(layoutInflater)
+        val binding = ActivityMain2Binding.inflate(layoutInflater)
         val view: View = binding.root
         setContentView(view)
 
@@ -56,11 +57,7 @@ class MainActivity : AppCompatActivity() {
         val context = localeHelper.setLocale(this, language.toString())
         val resources = context.resources
 
-        binding.idenDisease.text = resources.getString(R.string.identify_leaf_disease)
-        binding.appSettings.text = resources.getString(R.string.app_settings)
-        binding.contactExpert.text = resources.getString(R.string.contact_expert)
-
-        binding.libraryCard.setOnClickListener{
+        binding.cardLibrary.setOnClickListener{
             startActivity(Intent(this, Library::class.java))
         }
 
@@ -74,8 +71,8 @@ class MainActivity : AppCompatActivity() {
 
         val options = arrayOf(resources.getString(R.string.open_cam), resources.getString(R.string.choose_gallery))
 
-        val takePhotoCard: CardView = findViewById(R.id.identifyCard)
-        val settingsCard: CardView = findViewById(R.id.settingsCard)
+        val takePhotoCard: CardView = binding.cardIdentify
+        val settingsCard: CardView = binding.cardSettings
 
         val window: AlertDialog.Builder = AlertDialog.Builder(this)
         window.setTitle(resources.getString(R.string.take_photo))
@@ -97,6 +94,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         takePhotoCard.setOnClickListener {
+            window.show()
+        }
+        binding.btnIdentify.setOnClickListener{
             window.show()
         }
 
@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
         ) { result: ActivityResult ->
             if (result.resultCode == RESULT_OK) {
                 val cropImage = loadFromUri(resultProvider)
-                val imgBitmap = getResizedBitmap(cropImage, 2000)
+                val imgBitmap = getResizedBitmap(cropImage, 500)
                 //imgBitmap is immutable so I copy it to a mutable
                 //bitmap so we can use the bitmap for image processing
                 mutableBitmap = imgBitmap.copy(Bitmap.Config.ARGB_8888, true)
@@ -144,7 +144,6 @@ class MainActivity : AppCompatActivity() {
                 }else{
                     val i = Intent(this, PredictionResult::class.java)
                     i.putExtra("predClass", predClass)
-                    i.putExtra("predProb", predProb)
                     //for measuring the inference time
                     //Toast.makeText(this, "Inference time: $inferenceTime", Toast.LENGTH_LONG).show()
                     startActivity(i)

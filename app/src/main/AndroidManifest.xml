@@ -23,7 +23,7 @@
         <activity
             android:name=".Library"
             android:exported="false"
-            android:label="" />
+            android:label="Library" />
         <activity
             android:name=".ChangeAppLanguage"
             android:exported="false"

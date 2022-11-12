@@ -7,9 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="card_button_color">#44B450</color>\
-    <color name="green">#44B450</color>
-    <color name="lighter_green">#59E168</color>
+    <color name="card_button_color">#079136</color>
+    <color name="green">#0A983B</color>
+    <color name="lighter_green">#10A844</color>
 
     <color name="green_text">#067D13</color>
     <color name="main_text_color">#444444</color>

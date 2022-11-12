@@ -18,12 +18,6 @@ class ChangeAppLanguage : AppCompatActivity() {
         val view: View = binding.root
         setContentView(view)
 
-
-
-
-
-
-
         val preferences: SharedPreferences =
             this.getSharedPreferences("LANGUAGE", Context.MODE_PRIVATE)
         val savedLanguage = preferences.getString("SAVED_LANGUAGE", "en")
