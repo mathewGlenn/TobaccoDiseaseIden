@@ -1,5 +1,6 @@
 package com.appdev.tobaccoleafdiseaseai
 
+import android.app.Dialog
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
@@ -12,6 +13,8 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
 import android.view.View
+import android.view.Window
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
@@ -69,35 +72,39 @@ class MainActivity : AppCompatActivity() {
         val utils = Utils()
         classifier = Classifier(utils.assetFilePath(this, "model.pt"))
 
-        val options = arrayOf(resources.getString(R.string.open_cam), resources.getString(R.string.choose_gallery))
-
         val takePhotoCard: CardView = binding.cardIdentify
         val settingsCard: CardView = binding.cardSettings
 
-        val window: AlertDialog.Builder = AlertDialog.Builder(this)
-        window.setTitle(resources.getString(R.string.take_photo))
-        window.setItems(options) { dialog, which ->
-            when (which) {
-                0 -> {
-                    onLaunchCamera()
-                }
-                1 -> {
-                    onPickPhoto()
-                }
-                else -> {
-                    //theres an error in what was selected
-                    Toast.makeText(applicationContext,
-                        "Hmmm I messed up. I detected that you clicked on : $which?", Toast.LENGTH_LONG)
-                        .show()
-                }
-            }
+        val alert = Dialog(this)
+        alert.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        alert.setContentView(R.layout.dialog)
+        val dialogTitle: TextView = alert.findViewById(R.id.dialogTitle)
+        val dialogOpenCam: TextView = alert.findViewById(R.id.dOpenCamera)
+        val dialogOpenGallery: TextView = alert.findViewById(R.id.dOpenGallery)
+        val cardOpenCam: CardView = alert.findViewById(R.id.dCardOpenCam)
+        val cardOpenGallery: CardView = alert.findViewById(R.id.dCardOpenGallery)
+
+        dialogTitle.text = resources.getString(R.string.take_photo)
+        dialogOpenCam.text = resources.getString(R.string.open_cam)
+        dialogOpenGallery.text = resources.getString(R.string.choose_gallery)
+
+        cardOpenCam.setOnClickListener{
+            onLaunchCamera()
+            Thread.sleep(1_000)
+            alert.dismiss()
+        }
+        cardOpenGallery.setOnClickListener{
+            onPickPhoto()
+            Thread.sleep(1_000)
+            alert.dismiss()
         }
 
+
         takePhotoCard.setOnClickListener {
-            window.show()
+            alert.show()
         }
         binding.btnIdentify.setOnClickListener{
-            window.show()
+            alert.show()
         }
 
         settingsCard.setOnClickListener{
