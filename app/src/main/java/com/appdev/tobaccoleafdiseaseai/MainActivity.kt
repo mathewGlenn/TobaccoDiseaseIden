@@ -103,9 +103,6 @@ class MainActivity : AppCompatActivity() {
         takePhotoCard.setOnClickListener {
             alert.show()
         }
-        binding.btnIdentify.setOnClickListener{
-            alert.show()
-        }
 
         settingsCard.setOnClickListener{
             startActivity(Intent(this, Settings::class.java))

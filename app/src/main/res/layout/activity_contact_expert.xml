@@ -51,7 +51,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Contact this expert"
+            android:text="Call or text NTA"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:justificationMode="inter_word"
+            android:lineHeight="@dimen/text_line_height"
+            android:text="09669611687"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Send an email"
             android:textSize="20sp"
             android:textStyle="bold" />
 

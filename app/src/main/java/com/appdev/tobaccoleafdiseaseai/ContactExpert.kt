@@ -94,7 +94,7 @@ class ContactExpert : AppCompatActivity() {
 
             val i = Intent(Intent.ACTION_SEND)
             i.type = "application/image"
-            i.putExtra(Intent.EXTRA_EMAIL, arrayOf("tobaccoexpert@gmail.com"))
+            i.putExtra(Intent.EXTRA_EMAIL, arrayOf("nta_isabela@yahoo.com"))
             i.putExtra(Intent.EXTRA_SUBJECT, "report")
             i.putExtra(Intent.EXTRA_TEXT, messageExtra)
             i.putExtra(Intent.EXTRA_STREAM, resultProvider)
@@ -121,12 +121,13 @@ class ContactExpert : AppCompatActivity() {
                 onCropImage()
             }
         }
+
         cropActivityResultLauncher = registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()
         ) { result: ActivityResult ->
             if (result.resultCode == RESULT_OK) {
                 val cropImage = loadFromUri(resultProvider)
-                val imgBitmap = getResizedBitmap(cropImage, 2000)
+                val imgBitmap = getResizedBitmap(cropImage, 500)
                 //imgBitmap is immutable so I copy it to a mutable
                 //bitmap so we can use the bitmap for image processing
 //                mutableBitmap = imgBitmap.copy(Bitmap.Config.ARGB_8888, true)
