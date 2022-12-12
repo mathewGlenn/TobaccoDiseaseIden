@@ -68,6 +68,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ContactExpert::class.java))
         }
 
+        binding.txtIdentify.text = resources.getString(R.string.identify)
+
 
         val utils = Utils()
         classifier = Classifier(utils.assetFilePath(this, "model.pt"))
@@ -128,7 +130,7 @@ class MainActivity : AppCompatActivity() {
         ) { result: ActivityResult ->
             if (result.resultCode == RESULT_OK) {
                 val cropImage = loadFromUri(resultProvider)
-                val imgBitmap = getResizedBitmap(cropImage, 500)
+                val imgBitmap = getResizedBitmap(cropImage, 2000)
                 //imgBitmap is immutable so I copy it to a mutable
                 //bitmap so we can use the bitmap for image processing
                 mutableBitmap = imgBitmap.copy(Bitmap.Config.ARGB_8888, true)

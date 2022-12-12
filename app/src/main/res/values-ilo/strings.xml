@@ -1,4 +1,7 @@
 <resources>
+    <string name="identify">Ilasin</string>
+    <string name="library">Libraria</string>
+    <string name="expert">Eksperto</string>
     <string name="app_name">TobaccoLeafDiseaseAI</string>
     <string name="text">
         Leaf spots are brown in color, circular and enlarge to about the size of a nickel.
@@ -18,7 +21,10 @@ Subject adviser - Rose Mary A. Velasco\n
 Lead panel- Reynaldo R. Corpuz\n
 Panel member - Christopher Guiang , Paulo Opiña Jr\n
 Dean - Betchie E. Aguinaldo\n\n
-Isabela State University\n Kampus ti Siudad ti Cauayan\n S.Y. 2022 – 2023\n\nImeplemented at Cauayan City Isabela </string>
+Isabela State University\n Kampus ti Siudad ti Cauayan\n S.Y. 2022 – 2023\n\nImeplemented at Cauayan City Isabela
+    \n\n
+Disclaimer: Ti patarus ti pagsasao manipud iti daytoy nga aplikasion ket naggapu iti Google Translate.
+</string>
     <string name="identify_leaf_disease">Bigbigen ti sakit ti tabako</string>
     <string name="app_settings">Dagiti setting ti app</string>
     <string name="change_app_lang">Baliwan ti lengguahe ti app</string>
