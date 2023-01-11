@@ -2,9 +2,9 @@ package com.appdev.tobaccoleafdiseaseai
 
 import android.content.Context
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityNoResultBinding
 
 class NoResult : AppCompatActivity() {
@@ -25,7 +25,7 @@ class NoResult : AppCompatActivity() {
         binding.txtInfo.text = resources.getString(R.string.no_result)
         binding.goBack.text = resources.getString(R.string.go_back)
 
-        binding.goBackCard.setOnClickListener{
+        binding.goBackCard.setOnClickListener {
             finish()
         }
     }

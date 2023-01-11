@@ -4,255 +4,280 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".PredictionResult">
 
-    <HorizontalScrollView
-        android:id="@+id/carousel"
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PredictionResult">
 
-        <LinearLayout
+        <HorizontalScrollView
+            android:id="@+id/carousel"
             android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:orientation="horizontal"
-            android:paddingHorizontal="30dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="270dp"
-                android:layout_height="270dp"
-                android:layout_marginEnd="30dp"
-                app:cardCornerRadius="15dp">
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="horizontal"
+                android:paddingHorizontal="30dp">
 
-                <ImageView
-                    android:id="@+id/img1"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/sample_image_leaf" />
-            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="270dp"
+                    android:layout_marginEnd="30dp"
+                    app:cardCornerRadius="15dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="270dp"
-                android:layout_height="270dp"
-                android:layout_marginEnd="30dp"
-                app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image_leaf" />
+                </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/img2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/sample_image_leaf" />
-            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="270dp"
+                    android:layout_marginEnd="30dp"
+                    app:cardCornerRadius="15dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="270dp"
-                android:layout_height="270dp"
-                android:layout_marginEnd="30dp"
-                app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image_leaf" />
+                </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/img3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/sample_image_leaf" />
-            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="270dp"
+                    android:layout_marginEnd="30dp"
+                    app:cardCornerRadius="15dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="270dp"
-                android:layout_height="270dp"
-                app:cardCornerRadius="15dp">
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image_leaf" />
+                </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/img4"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/sample_image_leaf" />
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
-    </HorizontalScrollView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="270dp"
+                    android:layout_height="270dp"
+                    app:cardCornerRadius="15dp">
 
-    <TextView
-        android:id="@+id/labelDiagnosis"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="Disease Diagnosis"
-        android:textColor="@color/green_text"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/carousel" />
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_image_leaf" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
 
-    <TextView
-        android:id="@+id/diseaseName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="Brown Spot"
-        android:textColor="@color/main_text_color"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/labelDiagnosis" />
-
-    <TextView
-        android:id="@+id/labelInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="Disease Information"
-        android:textColor="@color/green_text"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/diseaseName" />
-
-    <TextView
-        android:lineHeight="25dp"
-        android:id="@+id/diseaseInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginHorizontal="15dp"
-        android:textColor="@color/main_text_color"
-        android:text="@string/diseaseInfo"
-        app:layout_constraintTop_toBottomOf="@id/labelInfo"
-        android:justificationMode="inter_word"/>
-
-    <TextView
-        android:id="@+id/labelManagement"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="Disease Management"
-        android:textColor="@color/green_text"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/diseaseInfo" />
-
-    <TextView
-        android:lineHeight="25dp"
-        android:id="@+id/diseaseManagement"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="@string/diseaseInfo"
-        android:textColor="@color/main_text_color"
-        app:layout_constraintTop_toBottomOf="@id/labelManagement"
-        android:justificationMode="inter_word"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/diseaseManagement"
-        android:text="Contact an expert"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
-        android:textColor="@color/main_text_color"
-        android:textStyle="bold"
-        android:id="@+id/labelContact"/>
-
-    <TextView
-        android:id="@+id/contactExpertDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginHorizontal="15dp"
-        android:text="@string/expert_description"
-        app:layout_constraintTop_toBottomOf="@id/labelContact"
-        android:justificationMode="inter_word"
-        android:textColor="@color/main_text_color"/>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="170dp"
-        app:layout_constraintTop_toBottomOf="@id/contactExpertDescription"
-        android:layout_marginHorizontal="15dp"
-        android:layout_marginTop="20dp"
-        app:cardCornerRadius="10dp"
-        android:id="@+id/expert1"
-        android:clickable="true"
-        android:foreground="?android:attr/selectableItemBackground"
-        >
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <TextView
+            android:id="@+id/labelDiagnosis"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <androidx.cardview.widget.CardView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:cardCornerRadius="60dp"
-                android:id="@+id/cardImage"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginStart="20dp">
-            <ImageView
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Disease Diagnosis"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/carousel" />
+
+        <TextView
+            android:id="@+id/diseaseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Brown Spot"
+            android:textColor="@color/main_text_color"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/labelDiagnosis" />
+
+        <TextView
+            android:id="@+id/labelInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Disease Information"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/diseaseName" />
+
+        <TextView
+            android:id="@+id/diseaseInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:lineHeight="25dp"
+            android:text="@string/diseaseInfo"
+            android:textColor="@color/main_text_color"
+            app:layout_constraintTop_toBottomOf="@id/labelInfo" />
+
+        <TextView
+            android:id="@+id/labelManagement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Disease Management"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/diseaseInfo" />
+
+        <TextView
+            android:id="@+id/diseaseManagement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:lineHeight="25dp"
+            android:text="@string/diseaseInfo"
+            android:textColor="@color/main_text_color"
+            app:layout_constraintTop_toBottomOf="@id/labelManagement" />
+
+        <TextView
+            android:id="@+id/labelLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Source"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/diseaseManagement" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:justificationMode="inter_word"
+            android:lineHeight="25dp"
+            android:textColor="@color/main_text_color"
+            app:layout_constraintTop_toBottomOf="@id/labelLink" />
+
+        <TextView
+            android:id="@+id/labelContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Contact an expert"
+            android:textColor="@color/main_text_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/link" />
+
+        <TextView
+            android:id="@+id/contactExpertDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:justificationMode="inter_word"
+            android:text="@string/expert_description"
+            android:textColor="@color/main_text_color"
+            app:layout_constraintTop_toBottomOf="@id/labelContact" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/expert1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintTop_toBottomOf="@id/contactExpertDescription">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/nta_logo"/>
-            </androidx.cardview.widget.CardView>
+                android:layout_height="match_parent">
 
-            <TextView
-                android:layout_width="0dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/main_text_color"
-                android:text="National Tobacco Administration"
-                android:id="@+id/expName"
-                android:textStyle="bold"
-                android:textSize="22sp"
-                app:layout_constraintBottom_toTopOf="@id/expTitle"
-                app:layout_constraintStart_toStartOf="@id/expTitle"
-                />
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    app:cardCornerRadius="60dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/expTitle"
-                android:layout_marginTop="40dp"
-                app:layout_constraintTop_toTopOf="@id/cardImage"
-                app:layout_constraintBottom_toBottomOf="@id/cardImage"
-                app:layout_constraintStart_toEndOf="@id/cardImage"
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/nta_logo" />
+                </androidx.cardview.widget.CardView>
 
-                android:layout_marginStart="20dp"
-                android:textColor="@color/main_text_color"
-                />
-            <TextView
-                android:layout_marginTop="5dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Read more"
-                android:textColor="@color/green_text"
-                android:textAllCaps="false"
-                android:id="@+id/readMoreBtn"
-                app:layout_constraintTop_toBottomOf="@id/expTitle"
-                app:layout_constraintStart_toStartOf="@id/expTitle"/>
+                <TextView
+                    android:id="@+id/expName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="National Tobacco Administration"
+                    android:textColor="@color/main_text_color"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@id/expTitle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/expTitle" />
+
+                <TextView
+                    android:id="@+id/expTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/main_text_color"
+                    app:layout_constraintBottom_toBottomOf="@id/cardImage"
+
+                    app:layout_constraintStart_toEndOf="@id/cardImage"
+                    app:layout_constraintTop_toTopOf="@id/cardImage" />
+
+                <TextView
+                    android:id="@+id/readMoreBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Read more"
+                    android:textAllCaps="false"
+                    android:textColor="@color/green_text"
+                    app:layout_constraintStart_toStartOf="@id/expTitle"
+                    app:layout_constraintTop_toBottomOf="@id/expTitle" />
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
 
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:layout_constraintTop_toBottomOf="@id/expert1" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        app:layout_constraintTop_toBottomOf="@id/expert1"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

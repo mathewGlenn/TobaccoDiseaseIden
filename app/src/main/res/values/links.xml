@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bs_link" translatable="false">
+        <a href="https://apps.lucidcentral.org/ppp/text/web_full/entities/tobacco_brown_spot_306.htm">Brown Spot of Tobacco</a>
+    </string>
+
+    <string name="bsh_link" translatable="false">
+        <a href="https://content.ces.ncsu.edu/black-shank">Black Shank of Tobacco</a>
+    </string>
+
+    <string name="lc_link" translatable="false">
+        <a href="https://agriculturistmusa.com/management-of-tobacco-leaf-curl-virus/">Leaf Curl of Tobacco</a>
+    </string>
+</resources>

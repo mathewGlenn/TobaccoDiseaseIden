@@ -33,10 +33,10 @@ class Settings : AppCompatActivity() {
         val aboutCard: CardView = findViewById(R.id.aboutCard)
         val changeAppLanguage: CardView = findViewById(R.id.translateCard)
 
-        aboutCard.setOnClickListener{
+        aboutCard.setOnClickListener {
             startActivity(Intent(this, About::class.java))
         }
-        changeAppLanguage.setOnClickListener{
+        changeAppLanguage.setOnClickListener {
             startActivity(Intent(this, ChangeAppLanguage::class.java))
         }
     }

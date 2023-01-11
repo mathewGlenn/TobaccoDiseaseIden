@@ -4,7 +4,10 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
+import android.text.util.Linkify
 import android.view.View
+import android.widget.TextView
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityLibraryInfoBinding
 
 class LibraryInfo : AppCompatActivity() {
@@ -21,6 +24,9 @@ class LibraryInfo : AppCompatActivity() {
         val context = localeHelper.setLocale(this, language.toString())
         val resources = context.resources
 
+        val link: TextView = findViewById(R.id.link)
+        link.movementMethod = LinkMovementMethod.getInstance()
+
         val disease = intent.getStringExtra("disease").toString()
 
         when(disease){
@@ -32,7 +38,7 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.al1)
                 binding.img2.setImageResource(R.drawable.al2)
                 binding.img3.setImageResource(R.drawable.al3)
-
+                link.text = "https://www.coresta.org/abstracts/chemical-control-angular-leaf-spot-tobacco-4458.html"
             }
 
             "BSH" -> {
@@ -43,6 +49,7 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.bsh1)
                 binding.img2.setImageResource(R.drawable.bsh2)
                 binding.img3.setImageResource(R.drawable.bsh3)
+                link.text = "https://content.ces.ncsu.edu/black-shank"
             }
 
             "BS" -> {
@@ -53,6 +60,7 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.bs1)
                 binding.img2.setImageResource(R.drawable.bs2)
                 binding.img3.setImageResource(R.drawable.bs3)
+                link.text = "https://apps.lucidcentral.org/ppp/text/web_full/entities/tobacco_brown_spot_306.htm"
             }
 
             "LC" -> {
@@ -63,6 +71,7 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.lc1)
                 binding.img2.setImageResource(R.drawable.lc2)
                 binding.img3.setImageResource(R.drawable.lc3)
+                link.text = "https://agriculturistmusa.com/management-of-tobacco-leaf-curl-virus/"
             }
 
             "PM" -> {
@@ -73,6 +82,7 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.pm1)
                 binding.img2.setImageResource(R.drawable.pm2)
                 binding.img3.setImageResource(R.drawable.pm3)
+                link.text = "http://eagri.org/eagri50/PATH272/lecture08/004.html"
             }
 
             "WF" -> {
@@ -83,7 +93,9 @@ class LibraryInfo : AppCompatActivity() {
                 binding.img1.setImageResource(R.drawable.wf1)
                 binding.img2.setImageResource(R.drawable.wf2)
                 binding.img3.setImageResource(R.drawable.wf3)
+               link.text = "http://ephytia.inra.fr/en/C/10914/Tobacco-Pollution-spots-weather-fleck"
             }
         }
+        Linkify.addLinks(link, Linkify.WEB_URLS)
     }
 }

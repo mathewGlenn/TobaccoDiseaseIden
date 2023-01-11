@@ -42,12 +42,12 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
             android:id="@+id/cardALS"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -82,13 +82,13 @@
 
 
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/cardBSH"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="30dp"
-            app:cardCornerRadius="15dp"
-            android:id="@+id/cardBSH">
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -122,12 +122,12 @@
 
 
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
             android:id="@+id/cardBS"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -162,12 +162,12 @@
 
 
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
             android:id="@+id/cardLC"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -202,12 +202,12 @@
 
 
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
             android:id="@+id/cardPM"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -241,14 +241,13 @@
         </androidx.cardview.widget.CardView>
 
 
-
         <androidx.cardview.widget.CardView
-            android:clickable="true"
-            android:foreground="?attr/selectableItemBackground"
             android:id="@+id/cardWF"
             android:layout_width="match_parent"
             android:layout_height="280dp"
             android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
             app:cardCornerRadius="15dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -283,8 +282,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            />
+            android:layout_height="70dp" />
 
 
     </LinearLayout>

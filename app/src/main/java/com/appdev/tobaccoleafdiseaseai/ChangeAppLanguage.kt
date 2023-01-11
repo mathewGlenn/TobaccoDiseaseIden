@@ -3,11 +3,10 @@ package com.appdev.tobaccoleafdiseaseai
 import android.content.Context
 import android.content.SharedPreferences
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.appdev.tobaccoleafdiseaseai.databinding.ActivityAboutBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityChangeAppLanguageBinding
 import com.jakewharton.processphoenix.ProcessPhoenix
 
@@ -31,43 +30,43 @@ class ChangeAppLanguage : AppCompatActivity() {
 
         var lang = savedLanguage!!
 
-        when(lang){
-            "en" ->{
+        when (lang) {
+            "en" -> {
                 binding.cardENG.setCardBackgroundColor(Color.parseColor("#59E168"))
             }
-            "tl" ->{
+            "tl" -> {
                 binding.cardTL.setCardBackgroundColor(Color.parseColor("#59E168"))
             }
-            "ilo" ->{
+            "ilo" -> {
                 binding.cardILO.setCardBackgroundColor(Color.parseColor("#59E168"))
             }
         }
 
-        binding.cardENG.setOnClickListener{
+        binding.cardENG.setOnClickListener {
             binding.cardENG.setCardBackgroundColor(Color.parseColor("#59E168"))
             binding.cardILO.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             binding.cardTL.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             lang = "en"
         }
 
-        binding.cardTL.setOnClickListener{
+        binding.cardTL.setOnClickListener {
             binding.cardENG.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             binding.cardILO.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             binding.cardTL.setCardBackgroundColor(Color.parseColor("#59E168"))
             lang = "tl"
         }
 
-        binding.cardILO.setOnClickListener{
+        binding.cardILO.setOnClickListener {
             binding.cardENG.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             binding.cardILO.setCardBackgroundColor(Color.parseColor("#59E168"))
             binding.cardTL.setCardBackgroundColor(Color.parseColor("#ECECEC"))
             lang = "ilo"
         }
 
-        binding.saveBtn.setOnClickListener{
-            if (lang == savedLanguage){
+        binding.saveBtn.setOnClickListener {
+            if (lang == savedLanguage) {
                 finish()
-            }else{
+            } else {
                 val localeHelper = LocaleHelper()
                 localeHelper.changeLocale(applicationContext, lang)
                 showPromptRestartApp()
@@ -86,7 +85,7 @@ class ChangeAppLanguage : AppCompatActivity() {
 
         }
         alertDialogBuilder.setPositiveButton("Restart now"
-        ){_,_ ->
+        ) { _, _ ->
             ProcessPhoenix.triggerRebirth(applicationContext)
         }
 

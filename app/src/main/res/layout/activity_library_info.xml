@@ -109,13 +109,13 @@
             app:layout_constraintTop_toBottomOf="@id/diseaseName" />
 
         <TextView
-            android:lineHeight="25dp"
             android:id="@+id/diseaseInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             android:layout_marginTop="5dp"
             android:justificationMode="inter_word"
+            android:lineHeight="25dp"
             android:text="@string/diseaseInfo"
             android:textColor="@color/main_text_color"
             app:layout_constraintTop_toBottomOf="@id/labelInfo" />
@@ -132,17 +132,40 @@
             app:layout_constraintTop_toBottomOf="@id/diseaseInfo" />
 
         <TextView
-            android:lineHeight="25dp"
             android:id="@+id/diseaseManagement"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
             android:layout_marginTop="5dp"
             android:justificationMode="inter_word"
+            android:lineHeight="25dp"
             android:text="@string/diseaseInfo"
             android:textColor="@color/main_text_color"
             app:layout_constraintTop_toBottomOf="@id/labelManagement" />
 
+        <TextView
+            android:id="@+id/labelLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Source"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/diseaseManagement" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="5dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:justificationMode="inter_word"
+            android:lineHeight="25dp"
+            android:textColor="@color/main_text_color"
+            app:layout_constraintTop_toBottomOf="@id/labelLink" />
 
         <View
             android:layout_width="match_parent"

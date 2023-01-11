@@ -3,7 +3,6 @@ package com.appdev.tobaccoleafdiseaseai
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
-import android.preference.PreferenceManager
 import java.util.*
 
 class LocaleHelper {
@@ -14,13 +13,14 @@ class LocaleHelper {
     }
 
     // method to change languae in settings
-    fun changeLocale(context: Context, language: String){
+    fun changeLocale(context: Context, language: String) {
         persist(context, language)
     }
 
     // persist the change language in SharedPref
     private fun persist(context: Context, language: String) {
-        val preferences: SharedPreferences = context.getSharedPreferences("LANGUAGE", Context.MODE_PRIVATE)
+        val preferences: SharedPreferences =
+            context.getSharedPreferences("LANGUAGE", Context.MODE_PRIVATE)
         val editor: SharedPreferences.Editor = preferences.edit()
         editor.putString("SAVED_LANGUAGE", language)
         editor.apply()

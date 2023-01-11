@@ -1,9 +1,9 @@
 package com.appdev.tobaccoleafdiseaseai
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityLibraryBinding
 
 class Library : AppCompatActivity() {
@@ -20,43 +20,40 @@ class Library : AppCompatActivity() {
         val cardPM = binding.cardPM
         val cardWF = binding.cardWF
 
-        cardALS.setOnClickListener{
+        cardALS.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "ALS")
             startActivity(intent)
         }
 
-        cardBSH.setOnClickListener{
+        cardBSH.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "BSH")
             startActivity(intent)
         }
 
-        cardBS.setOnClickListener{
+        cardBS.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "BS")
             startActivity(intent)
         }
 
-        cardLC.setOnClickListener{
+        cardLC.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "LC")
             startActivity(intent)
         }
 
-
-        cardPM.setOnClickListener{
+        cardPM.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "PM")
             startActivity(intent)
         }
 
-        cardWF.setOnClickListener{
+        cardWF.setOnClickListener {
             val intent = Intent(this, LibraryInfo::class.java)
             intent.putExtra("disease", "WF")
             startActivity(intent)
         }
-
-
     }
 }

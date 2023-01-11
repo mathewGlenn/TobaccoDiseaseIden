@@ -10,53 +10,51 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
-
-    <ImageView
-        android:id="@+id/tobField"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/tobacco_field"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/logos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tobField">
-
         <ImageView
-            android:layout_width="85dp"
-            android:layout_height="80dp"
-            android:layout_marginEnd="20dp"
-            android:src="@drawable/ccsict_seal" />
+            android:id="@+id/tobField"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tobacco_field"
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="70dp"
+        <LinearLayout
+            android:id="@+id/logos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tobField">
 
-            android:layout_height="70dp"
-            android:src="@drawable/isu_seal" />
-    </LinearLayout>
+            <ImageView
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ccsict_seal" />
 
-    <TextView
-        android:lineHeight="25dp"
-        android:id="@+id/aboutInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:paddingHorizontal="15dp"
-        android:text="@string/about_app"
+            <ImageView
+                android:layout_width="70dp"
 
-        app:layout_constraintTop_toBottomOf="@id/logos" />
+                android:layout_height="70dp"
+                android:src="@drawable/isu_seal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aboutInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:lineHeight="25dp"
+            android:paddingHorizontal="15dp"
+            android:text="@string/about_app"
+
+            app:layout_constraintTop_toBottomOf="@id/logos" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="40dp"
-            app:layout_constraintTop_toBottomOf="@id/aboutInfo"/>
+            app:layout_constraintTop_toBottomOf="@id/aboutInfo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

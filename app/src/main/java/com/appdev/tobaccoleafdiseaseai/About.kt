@@ -2,11 +2,10 @@ package com.appdev.tobaccoleafdiseaseai
 
 import android.content.Context
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityAboutBinding
-import com.appdev.tobaccoleafdiseaseai.databinding.ActivitySettingsBinding
 
 class About : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

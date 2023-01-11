@@ -19,13 +19,11 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import com.appdev.tobaccoleafdiseaseai.Image.Companion.Image
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.core.content.FileProvider
+import com.appdev.tobaccoleafdiseaseai.Image.Companion.Image
 import com.appdev.tobaccoleafdiseaseai.databinding.ActivityMain2Binding
-import com.appdev.tobaccoleafdiseaseai.databinding.ActivityMainBinding
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
@@ -46,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     var galleryActivityResultLauncher: ActivityResultLauncher<Intent>? = null
     var cropActivityResultLauncher: ActivityResultLauncher<Intent>? = null
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityMain2Binding.inflate(layoutInflater)
@@ -60,11 +57,11 @@ class MainActivity : AppCompatActivity() {
         val context = localeHelper.setLocale(this, language.toString())
         val resources = context.resources
 
-        binding.cardLibrary.setOnClickListener{
+        binding.cardLibrary.setOnClickListener {
             startActivity(Intent(this, Library::class.java))
         }
 
-        binding.cardExpert.setOnClickListener{
+        binding.cardExpert.setOnClickListener {
             startActivity(Intent(this, ContactExpert::class.java))
         }
 
@@ -90,12 +87,12 @@ class MainActivity : AppCompatActivity() {
         dialogOpenCam.text = resources.getString(R.string.open_cam)
         dialogOpenGallery.text = resources.getString(R.string.choose_gallery)
 
-        cardOpenCam.setOnClickListener{
+        cardOpenCam.setOnClickListener {
             onLaunchCamera()
             Thread.sleep(1_000)
             alert.dismiss()
         }
-        cardOpenGallery.setOnClickListener{
+        cardOpenGallery.setOnClickListener {
             onPickPhoto()
             Thread.sleep(1_000)
             alert.dismiss()
@@ -106,7 +103,7 @@ class MainActivity : AppCompatActivity() {
             alert.show()
         }
 
-        settingsCard.setOnClickListener{
+        settingsCard.setOnClickListener {
             startActivity(Intent(this, Settings::class.java))
         }
 
@@ -144,10 +141,10 @@ class MainActivity : AppCompatActivity() {
                 ) = classifier.predict(mutableBitmap)
                 //val inferenceTime = System.currentTimeMillis() - taskStartTime
 
-                if (predClass == "Unknown"){
+                if (predClass == "Unknown") {
                     val i = Intent(this, NoResult::class.java)
                     startActivity(i)
-                }else{
+                } else {
                     val i = Intent(this, PredictionResult::class.java)
                     i.putExtra("predClass", predClass)
                     //for measuring the inference time
@@ -158,6 +155,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
     fun onLaunchCamera() {
         val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         val photoFile = getPhotoFileUri(intermediateName)

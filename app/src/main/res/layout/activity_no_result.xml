@@ -7,33 +7,33 @@
     tools:context=".NoResult">
 
     <ImageView
+        android:id="@+id/imgTop"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:src="@drawable/tob_field_dark"
-        app:layout_constraintTop_toTopOf="parent"
-        android:adjustViewBounds="true"
-        android:id="@+id/imgTop"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/noResIcon"
         android:layout_width="160dp"
         android:layout_height="160dp"
-        app:layout_constraintTop_toBottomOf="@id/imgTop"
-        android:src="@drawable/no_result"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"
-        android:id="@+id/noResIcon"/>
+        android:src="@drawable/no_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgTop" />
 
     <TextView
+        android:id="@+id/txtInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/no_result"
-        app:layout_constraintTop_toBottomOf="@id/noResIcon"
-        android:paddingHorizontal="30dp"
         android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
+        android:text="@string/no_result"
         android:textColor="@color/main_text_color"
-        android:id="@+id/txtInfo"/>
+        app:layout_constraintTop_toBottomOf="@id/noResIcon" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/goBackCard"
